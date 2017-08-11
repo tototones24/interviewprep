@@ -41,7 +41,12 @@ public class MyStack<T> {
     public static void main(String[] args) {
         MyStack<Integer> stack = new MyStack<Integer>();
         stack.push(9);
+        
+        stack.push(10);
+        stack.push(12);
+        stack.pop();
         stack.peek();
+
     }
 
 
